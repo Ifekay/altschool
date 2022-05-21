@@ -1,0 +1,144 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;   
+    font: 15px/1.5  Arial, Helvetica, sans-serif; 
+    color: #fff;
+}
+
+
+/* form styling  */
+.form{
+    height: 900px;
+    width: 70%;
+   position: absolute; 
+    top: 100px;
+    left: 15%;
+   text-align: center;
+    background: rgb(85, 87, 119);  
+    border: 3px solid rgb(236, 238, 238);
+    border-radius: 25px;
+}
+form{
+    border: solid 2px rgb(236, 238, 238);
+    border-radius: 30px;
+    position: relative;
+    top: 45px;
+    width: 70%;
+    margin-left:15%;
+  text-align: center;
+    height:93%;
+  
+}
+  h1 a{
+    color: #fff;
+    
+}
+h1 a:hover{
+    color: rgb(175, 80, 80);
+}
+.login{
+    font-size: 16px;
+   
+}
+
+button{
+    width: 25%;
+    position: absolute;
+    border:solid 2px rgb(236, 238, 238);
+    border-radius: 5px;
+    margin: 20px;
+    left:28%;
+
+}
+button:hover{
+    background-color: #04AA6D;
+}
+label{
+    display: block;
+    padding: 5px;   
+}
+input{
+    border: solid 1px rgb(107, 71, 71);;
+    width: 98%;
+    border-radius: 7px;
+} 
+
+
+
+/* header styling */
+body{
+    font: 15px/1.5  Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.head-container a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.head-container{
+    min-height: 70px;
+    color: #fff;
+    background: rgb(85, 87, 119);  
+    border-bottom: 3px solid rgb(107, 71, 71);
+    margin: 0 0 20px 0;
+}
+.head-container ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+.head-container h1{
+    float: left;
+    margin-left: 20px;
+}
+
+
+.head-container li{
+    list-style: none;
+    display: inline;
+    float: right;
+    padding: 30px 30px 0 30px;
+}
+.head-container a:hover{
+    color: rgb(175, 80, 80);
+}
+.Flex-box{
+    display: flex;
+}
+ h4{
+    text-align: center;
+}
+
+/* end of header styling */
+
+@media screen and (max-width: 700px){
+    #logo h1 {
+        width: 15%;
+        border-radius: 50%;
+        font-size: 20px;
+        margin-top: 25px;
+       
+        
+    }
+  .head-container li {
+      width: 18%;
+      padding: 0;
+      margin-top: 25px;
+      margin-left: 0;
+      padding-right: ;
+      
+  }
+  form{
+      border: none;
+  }
+ 
+ 
+}
+

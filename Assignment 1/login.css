@@ -1,0 +1,132 @@
+ body {  
+    margin: 0;  
+    padding: 0;  
+    background: rgb(236, 238, 238); 
+    letter-spacing: 0.5px;
+    font: 15px/1.5  Arial, Helvetica, sans-serif;
+}
+ 
+
+
+.form{
+    height: 380px;
+    width: 40%;
+   position: absolute; 
+    top: 100px;
+   left: 30%;
+    background: rgb(85, 87, 119);  
+    border: 3px solid rgb(236, 238, 238);
+    border-radius: 25px;
+  
+} 
+form{
+    border: solid 2px rgb(236, 238, 238);
+    border-radius: 10px;
+    position: relative;
+    top: 25px;
+    width: 80%;
+    min-height:250px;
+  margin-left: 10%;
+}
+ H1, p, p a{
+    text-align: center;
+    color: #fff;
+}
+
+
+button{
+    width: 30%;
+    height: 30px;
+    position: absolute;
+    border:solid 2px rgb(236, 238, 238);
+    border-radius: 5px;
+    margin: 20px 20% 0 0;
+    left:35%;
+    text-align: center;
+
+}
+button:hover{
+    background-color: #04AA6D;
+}
+label{
+    display: block;
+    padding: 5px;  
+    color: #fff; 
+}
+input{
+    border: solid 1px rgb(107, 71, 71);;
+    width: 98%;
+    border-radius: 7px;
+} 
+
+
+/* header styling */
+body{
+    font: 15px/1.5  Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.head-container a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.head-container{
+    min-height: 70px;
+    color: #fff;
+    background: rgb(85, 87, 119);  
+    border-bottom: 3px solid rgb(107, 71, 71);
+    margin: 0 0 20px 0;
+}
+.head-container ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+.head-container h1{
+    float: left;
+    margin-left: 20px;
+}
+
+
+.head-container li{
+    list-style: none;
+    display: inline;
+    float: right;
+    padding: 30px 30px 0 30px;
+}
+.head-container a:hover{
+    color: rgb(175, 80, 80);
+}
+
+
+/* end of header styling */
+
+
+@media screen and (max-width: 700px){
+    #logo h1{
+        width: 15%;
+        border-radius: 50%;
+        font-size: 20px ;
+        margin-top: 22px;
+        margin-left: 4px;
+        
+    }
+  
+  .head-container li {
+      width: 20%;
+      padding: 0;
+      margin-top: 25px;   
+  }
+  form{
+      border: none;
+  }
+  .form p{
+      font-size: 12px;
+  }
+}
